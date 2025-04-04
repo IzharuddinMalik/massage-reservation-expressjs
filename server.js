@@ -25,5 +25,5 @@ app.use("/api/admin", reservationRoutes);
 app.use("/api/admin", promoRoutes);
 app.use("/api/admin", dashboardRoutes);
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
